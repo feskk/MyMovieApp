@@ -25,3 +25,25 @@ body {
     text-wrap: balance;
   }
 }
+/* Styles pour le slider */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  white-space: nowrap;
+}
+
+.movie-card {
+  min-width: 300px;  /* Largeur minimale des cartes de film */
+  flex-shrink: 0;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
